@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'arm-title-font';
+    src: url('BraindAmanor.otf');
+}
+.text3{
+    margin:auto;
+    text-align: center;
+    display: flex;
+}
+.text4{
+    padding: 50px 50px;
+    display: flex;
+    text-align: center;
+    margin:auto;
+}
+.text2{
+    margin: 0 0 10px;
+    letter-spacing: 29px;
+    font-size:150px;
+    font-family: 'arm-title-font', serif;
+}
+.text{
+    font-size: 90px;
+    font-family: 'arm-title-font', serif;
+    margin-bottom: 10px;
+}
+
+.text5{
+    margin: 0 0 20px;
+    font-size:140px;
+    font-family: 'arm-title-font', serif;
+}
+.row1{
+    text-align: center;
+
+}
+.row2 {
+    width: 100%;
+
+}
+.row2 img {
+    width: 5%;
+    animation: spin 2s linear infinite;
+    filter: contrast(150%) brightness(1.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-top: -55px;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.Tesakani{
+    margin:auto;
+    text-align: center;
+}
+.tesakani1 a{
+ margin: 0 15px;
+    color: black;
+    font-size: 15px;
+}
+.col1 h2{
+    font-family: 'arm-title-font', serif;
+    margin: auto;
+    text-align: center;
+   font-size: 45px;
+    color: deepskyblue;
+}
+@media only screen and (max-width: 530px) {
+    .text3,.text4{
+        width: 87%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .row2 img{
+        width: 27%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .row2 img{
+        width: 25%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .col1 h2{
+        width: 85%;
+        margin: 0 20px;
+        font-size: 55px;
+    }
+}
+.col5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col2{
+    padding: 30px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.col3{
+    border: solid 1px black;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.col3 img{
+    width: 60%;
+    height:180px;
+}
+.tesakani1{
+    padding: 30px;
+}
+.tesakani1 a{
+    font-size: 20px;
+}
+@media only screen and (max-width:530px) {
+    .Tesakani,.tesakani1,.col,.col1,.col5,.col2,.col3{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .Tesakani,.tesakani1{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
+.col3 h4,h5{
+    font-size: 17px;
+    margin: 15px;
+}
+
+
